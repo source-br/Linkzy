@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: #0e1116;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 40px; /* Para mover o topo um pouco mais para cima */
+    font-family: Arial, sans-serif, 'JetBrains Mono', monospace;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Foto de perfil */
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #346a39;
+}
+
+/* Nome */
+.name {
+    font-size: 32px; /* Maior para mais destaque */
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff; /* Branco */
+}
+
+/* Descrição */
+.description {
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 8px; /* Adicionado para separar do nome */
+    margin-bottom: 20px;
+}
+
+/* Container dos botões */
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px; /* Separação do topo */
+    width: 100%;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço maior entre os botões */
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilização dos botões */
+.link {
+    background-color: #346a39;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px; /* Maior para mais conforto */
+    border-radius: 12px;
+    font-size: 20px; /* Texto maior */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #28512c;
+    transform: scale(1.05);
+}
+
+/* Botão de menu */
+.menu-button {
+    background: #346a39;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background: #28512c;
+}
