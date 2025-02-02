@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
-/* Reset básico */
+/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+/* Page body */
 body {
     background-color: #0e1116;
     color: #ffffff;
@@ -16,18 +16,18 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    padding-top: 40px; /* Para mover o topo um pouco mais para cima */
+    padding-top: 40px; /* Moves content slightly up */
     font-family: Arial, sans-serif, 'JetBrains Mono', monospace;
 }
 
-/* Container principal */
+/* Main container */
 .container {
     text-align: center;
     width: 90%;
     max-width: 400px;
 }
 
-/* Foto de perfil */
+/* Profile picture */
 .profile-picture {
     width: 120px;
     height: 120px;
@@ -35,30 +35,30 @@ body {
     border: 3px solid #346a39;
 }
 
-/* Nome */
+/* Name */
 .name {
-    font-size: 32px; /* Maior para mais destaque */
+    font-size: 32px; /* Larger for emphasis */
     font-weight: bold;
     margin-top: 10px;
-    color: #ffffff; /* Branco */
+    color: #ffffff; /* White */
 }
 
-/* Descrição */
+/* Description */
 .description {
     font-size: 16px;
     opacity: 0.8;
     font-family: 'JetBrains Mono', monospace;
-    margin-top: 8px; /* Adicionado para separar do nome */
+    margin-top: 8px; /* Added to create separation from the name */
     margin-bottom: 20px;
 }
 
-/* Container dos botões */
+/* Links container */
 .links-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px; /* Separação do topo */
+    margin-top: 40px; /* Separation from the top */
     width: 100%;
 }
 
@@ -66,19 +66,19 @@ body {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espaço maior entre os botões */
+    gap: 20px; /* More spacing between buttons */
     width: 100%;
     max-width: 400px;
 }
 
-/* Estilização dos botões */
+/* Link button styling */
 .link {
     background-color: #346a39;
     color: #ffffff;
     text-decoration: none;
-    padding: 18px; /* Maior para mais conforto */
+    padding: 20px; /* Larger for better comfort */
     border-radius: 12px;
-    font-size: 20px; /* Texto maior */
+    font-size: 20px; /* Bigger text */
     font-weight: bold;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
@@ -90,7 +90,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Botão de menu */
+/* Menu button */
 .menu-button {
     background: #346a39;
     border: none;
