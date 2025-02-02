@@ -89,21 +89,3 @@ body {
     background-color: #28512c;
     transform: scale(1.05);
 }
-
-/* Menu button */
-.menu-button {
-    background: #346a39;
-    border: none;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 8px 12px;
-    border-radius: 50%;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-
-.menu-button:hover {
-    background: #28512c;
-}
