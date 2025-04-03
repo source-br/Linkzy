@@ -14,7 +14,7 @@ if (profilePicture) {
 // Typing effect for the description
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("description");
-    const text = "BACK-END DEVELOPER | CODE, COFFEE, REPEAT.";
+    const text = "I build back-end systems & software solutions";
     let index = 0;
 
     function typeEffect() {
