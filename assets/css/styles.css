@@ -12,7 +12,7 @@
 
 /* Page body */
 body {
-    background: linear-gradient(to bottom, #1E1D1D, #303031); /* Americano → Brew */
+    background-color: #000000;
     color: #E0E0E0;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,6 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 0.5px solid #3d3d3d;
 }
 
 /* Name */
@@ -43,13 +42,14 @@ body {
     font-size: 32px;
     font-weight: bold;
     margin-top: 10px;
-    color: #E0E0E0;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Description */
 .description {
     font-size: 16px;
+    color: #999999;
     opacity: 0.8;
     margin-top: 8px;
     margin-bottom: 20px;
@@ -77,23 +77,21 @@ body {
 
 /* Link button styling */
 .link {
-    background-color: #5A4D41;
-    color: #E0E0E0;
+    background-color: #222222;
+    color: #ffffff;
     text-decoration: none;
     padding: 20px;
     border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    transition: 0.3s;
+    transition: transform .2s ease, box-shadow .2s ease, background-color .3s;
     font-family: 'Source Code Pro', monospace;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .link:hover {
-    background-color: #7E6957;
-    transform: scale(1.05);
-    transform: translateY(2px);
+    background-color: #333333; /* ligeiramente mais claro no hover */
+    transform: scale(1.05) translateY(2px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
