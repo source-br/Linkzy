@@ -8,13 +8,31 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+    <div class="wave-background">
+        <svg class="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#bcc3df">
+            <animate 
+            attributeName="d"
+            dur="7s"
+            repeatCount="indefinite"
+            values="
+                M0,224L48,213.3C96,203,192,181,288,160C384,139,480,117,576,122.7C672,128,768,160,864,170.7C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L0,320Z;
+
+                M0,224L48,210C96,196,192,184,288,172C384,160,480,140,576,150C672,160,768,180,864,185C960,190,1056,180,1152,160C1248,140,1344,110,1392,90L1440,80L1440,320L0,320Z;
+
+                M0,224L48,213.3C96,203,192,181,288,160C384,139,480,117,576,122.7C672,128,768,160,864,170.7C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L0,320Z
+            "
+            />
+        </path>
+        </svg>
+    </div>
+
     <div class="container">
         <header>
             <img id="profile-picture" alt="Foto de Perfil" class="profile-picture">
             <h1 class="name">Dazai</h1>
             <p id="description" class="description"></p>
         </header>
-        
         <main>
             <nav class="links">
                 <a href="https://github.com/oficial-dazai" class="link">GITHUB</a>

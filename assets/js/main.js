@@ -9,12 +9,10 @@ if (profilePicture) {
     profilePicture.src = `https://github.com/${githubUsername}.png`;
 }
 
-//----------------------------------------------
-
 // Typing effect for the description
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("description");
-    const text = "Student developer focused on back-end systems";
+    const text = "Back-end developer";
     let index = 0;
 
     function typeEffect() {
@@ -28,6 +26,3 @@ document.addEventListener("DOMContentLoaded", function () {
     textElement.textContent = ""; // Clear text before starting
     typeEffect(); // Start effect on page load
 });
-
-//----------------------------------------------
-
