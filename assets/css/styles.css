@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --background-dark: #07080f;
-    --wave-color: #bcc3df;
-    --button-bg: #0f111a;
-    --button-hover: #1a1c2b;
+    --background-dark: #000000;
+    --wave-color: #000000;
+    --button-bg: #0b0c0e;
+    --button-hover: #15161a;
     --text-primary: #ffffff;
     --text-secondary: #999999;
 }
