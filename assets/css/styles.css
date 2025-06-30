@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
     --background-dark: #0D0E10;
@@ -17,6 +17,7 @@
     box-sizing: border-box;
 }
 
+/* Global Styles */
 body {
     background-color: var(--wave-color);
     color: var(--text-primary);
@@ -26,8 +27,19 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     padding-top: 40px;
+    overflow-x: hidden;
 }
 
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 16px 100px;
+    padding-bottom: 100px;
+}
+
+/* Wave Background */
 .wave-background {
     position: fixed;
     bottom: 0;
@@ -43,18 +55,12 @@ body {
     height: 100%;
 }
 
-
-.container {
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-    padding-bottom: 100px; /* Isso afasta os botões da onda */
-}
-
+/* Profile Section */
 .profile-picture {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .name {
@@ -83,6 +89,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
+/* Links Section */
 .links-container {
     display: flex;
     justify-content: center;
@@ -120,8 +127,33 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
+.link:focus {
+    outline: 2px solid var(--text-primary);
+    outline-offset: 4px;
+}
+
 .links::after {
     content: "";
     display: block;
-    height: 10vh; /* Espaço proporcional à altura da onda */
+    height: 10vh;
+}
+
+/* Responsive Styles */
+@media (min-width: 600px) {
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+  .name {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .link {
+    font-size: 22px;
+    padding: 24px;
+  }
 }
