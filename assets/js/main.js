@@ -1,5 +1,5 @@
 // Set the profile picture according to the GitHub username
-const githubUsername = "oficial-dazai"; // Replace with your GitHub username
+const githubUsername = "kenned-candido"; // Replace with your GitHub username
 
 // Select the profile image by ID
 const profilePicture = document.getElementById("profile-picture");
