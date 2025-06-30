@@ -3,6 +3,9 @@
 # 🌐 Linkzy — Your Minimal Link Hub
 
 <!--image-->
+<div align="center">
+  <img src="assets/images/readme-preview.png" width="100%">
+</div>
 
 Linkzy is a **clean, minimal and customizable link-in-bio site** built with HTML, CSS and JavaScript — no frameworks, no dependencies.
 
@@ -78,6 +81,20 @@ In `main.js`, update your translated bio text:
 
 ```js
     const text = "Your description";
+```
+
+### 6. Edit Your Color Palette
+Customize your color palette to enhance the overall look and feel.
+
+```css
+:root {
+    --background-dark: #0D0E10;
+    --wave-color: #000000;
+    --button-bg: #1A1E22;
+    --button-hover: #2b3036;
+    --text-primary: #B7A99A;
+    --text-secondary: #8C9094;
+}
 ```
 
 ### 🌐 Deployment
