@@ -26,7 +26,6 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     padding-top: 40px;
-    padding-bottom: 80px; /* caso o conteúdo ultrapasse a altura da tela */
 }
 
 .wave-background {
