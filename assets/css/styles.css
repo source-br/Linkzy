@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
-    --background-dark: #0D0E10;
-    --wave-color: #000000;
-    --button-bg: #1A1E22;
-    --button-hover: #2b3036;
-    --text-primary: #B7A99A;
-    --text-secondary: #8C9094;
+    --background-dark: #4d71b9;
+    --wave-color: #18201a;
+    --button-bg: #2e3d32;
+    --button-hover: #505e4c;
+    --text-primary: #ebffd0;
+    --text-secondary: #ebffd0;
 }
 
 * {
@@ -124,7 +124,7 @@ body {
 .link:hover {
     background-color: var(--button-hover);
     transform: scale(1.05) translateY(2px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(206, 206, 206, 0.2);
 }
 
 .link:focus {
